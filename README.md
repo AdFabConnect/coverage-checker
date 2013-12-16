@@ -1,4 +1,4 @@
-overage Checker ##
+## Coverage Checker ##
 
 **Coverage Checker** permet de gérer les builds Jenkins sous certaines conditions.
 
