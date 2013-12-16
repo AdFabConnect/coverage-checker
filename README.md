@@ -4,7 +4,7 @@
 
 ### Existant ###
 
-**Marco Pivetta** avait concocté [coverage checker](http://ocramius.github.io/blog/automated-code-coverage-check-for-github-pull-requests-with-travis/). Cependant cet outils ne nous permet de gérer l'architecture multi module. Or dans les projets d'aujourd'hui nous utilisons principalement des bundles (symfony2) ou des modules (zend Framework 2).
+**Marco Pivetta** avait concocté [coverage checker](http://ocramius.github.io/blog/automated-code-coverage-check-for-github-pull-requests-with-travis/). Cependant cet outil ne nous permet pas de gérer l'architecture multi module. Or dans les projets d'aujourd'hui nous utilisons principalement des bundles (symfony2) ou des modules (zend Framework 2).
 C'est pourquoi nous avons modifié le coverage checker pour prendre en compte l'architecture multi-module
 
 ### Rappel du Fonctionnement du coverage checker ###
