@@ -5,7 +5,7 @@ $modules  = new SimpleXMLElement(file_get_contents(__DIR__.'/modules.xml'));
 $fileFound = false;
 foreach ($modules->modules[0] as $module) {
 
-    $inputFile  = __DIR__.'/../'.$module->path.'/build/junit.xml';
+    $inputFile  = __DIR__.'/../../'.$module->path.'/build/junit.xml';
     //$inputFile  = __DIR__.'/'.$module->name.'/junit.xml';
     if (!file_exists($inputFile)) {
         continue;
@@ -33,6 +33,6 @@ foreach ($modules->modules[0] as $module) {
 }
 
 if ($fileFound){
-    $mergedFile->save(__DIR__.'phpunit/phpunit-merged.xml');    
+    $mergedFile->save(__DIR__.'/phpunit/junit.xml');    
 }
 
